@@ -1,0 +1,127 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Db4o.Tutorial.Core</RootNamespace>
+    <StartupObject>Db4o.Tutorial.Core.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Db4o.Core\Db4o.Core.csproj" />
+    <ProjectReference Include="..\Db4o.CS.Core\Db4o.CS.Core.csproj" />
+    <ProjectReference Include="..\Db4o.Linq.Core\Db4o.Linq.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="App.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter1\ArbitraryQuery.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter1\ComplexQuery.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter1\FirstStepsExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter1\NQExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter1\Pilot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter1\QueryExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter2\Car.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter2\Pilot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter2\StructuredExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter4\Car.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter4\CollectionsExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter4\Pilot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter4\SensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\Car.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\InheritanceExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\Pilot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\PressureSensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\RetrieveAllSensorReadoutsPredicate.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\SensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter5\TemperatureSensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\Car.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\ClientServerExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\DeepExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\Pilot.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\PressureSensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\SensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\StartServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\StopServer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\TemperatureSensorReadout.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter6\TransactionExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter7\CultureInfoTranslator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter7\EvaluationExample.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter7\EvenHistoryEvaluation.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Chapter7\LocalizedItemList.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="F1\Util.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+</Project>

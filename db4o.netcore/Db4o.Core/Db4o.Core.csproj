@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <RootNamespace>Db4objects.Db4o</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Db4objects.Db4o\" />
+  </ItemGroup>
+
+</Project>
